@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+h1{
+  padding: 20px;
+  text-align: center;
+}
+hr{
+  border: 5px #ff3281 solid;
+}
+.contenedor_logo_redes_menu{
+  background-color: #fff9f1;
+  height: 210px;
+  width: 100%;
+}
+.logoyredes{
+  width: 1200px;
+}
+.img_logo{
+  float: left;
+}
+.redes{
+  margin-top: 40px;
+  float: right;
+  margin-right: 25px;
+}
+.menu{
+  text-align: center;
+  clear: both;
+  border: 3px black solid;
+  padding: 10px;
+}
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-right: 200px;
+}
+.menu a:nth-last-child(1){
+  margin-right: 0px;
+}
+.contenedor_promociones{
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -45px;
+  height: 400px;
+  text-align: center;
+}
+.contenedor_promociones h1{
+  padding-top: 130px;
+  color: white;
+}
+.contenedor_promociones p{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.botones_promociones{
+  margin-top: 50px;
+}
+.btn_solicitarpromo{
+  padding: 20px 30px;
+  text-decoration: none;
+  background-color: #ff3281;
+  color: white;
+  margin-right: 30px;
+}
+.btn_vervideo{
+  padding: 20px 30px;
+  text-decoration: none;
+  border: 2px #ff3281 solid;
+  color: white;
+}
+.contenedor_science_beauty{
+  padding: 20px;
+}
+.texto_science{
+  float: left;
+}
+.contenedor_science_beauty div p{
+  width: 500px;
+  margin-top: 40px;
+  line-height: 35px;
+}
+.img_velas{
+  float: right;
+}
+.contenedorgrande{
+  clear: both;
+  background-color: #fff9f1;
+  padding: 20px;
+}
+.contenedorgrande div h2{
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+.contenedor_aromatizante{
+  text-align: center;
+}
+.img_aroma{
+  float: left;
+  border-radius: 15px;
+}
+.texto_aroma{
+  float: right;
+  text-align: left;
+  width: 700px;
+}
+.contenedor_servicios{
+  text-align: center;
+  clear: both;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.servicios{
+  display: inline-block;
+  padding: 15px;
+  background-color: #ffe8a4;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+.contenedor_servicios div:nth-child(3){
+  margin-right: 0px;
+}
+.servicios p{
+  margin: 20px 0px;
+  text-align: left;
+  word-wrap: break-word;
+}
+.img_circular{
+  border: 5px white solid;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.btn_ver_mas{
+  padding: 10px 20px;
+  background-color: #ff3281;
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  text-align: center;
+  padding: 20px;
+}
+.footer span{
+  color: #ff3281;
+}
